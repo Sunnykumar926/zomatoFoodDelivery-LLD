@@ -1,33 +1,33 @@
 OnlineFoodOrderingSystem/
 │
-├── main.cpp                    # Composition root and entry point
-├── TomatoApp.h                # Facade class (main orchestrator)
+├── Main.java                    # Composition root and entry point
+├── TomatoApp.java                # Facade class (main orcjavaestrator)
 │
 ├── models/
-│   ├── MenuItem.h
-│   ├── Restaurant.h
-│   ├── User.h
-│   ├── Cart.h
-│   ├── Order.h                # Abstract Order
-│   ├── DeliveryOrder.h
-│   ├── PickupOrder.h
+│   ├── MenuItem.java
+│   ├── Restaurant.java
+│   ├── User.java
+│   ├── Cart.java
+│   ├── Order.java                # Abstract Order
+│   ├── DeliveryOrder.java
+│   ├── PickupOrder.java
 │
 ├── managers/
-│   ├── RestaurantManager.h
-│   ├── OrderManager.h
+│   ├── RestaurantManager.java
+│   ├── OrderManager.java
 │
 ├── strategies/
-│   ├── PaymentStrategy.h      # Base class
-│   ├── CreditCardPaymentStrategy.h
-│   ├── UpiPaymentStrategy.h
+│   ├── PaymentStrategy.java      # Base class
+│   ├── CreditCardPaymentStrategy.java
+│   ├── UpiPaymentStrategy.java
 │
 ├── factories/
-│   ├── OrderFactory.h         # Abstract factory
-│   ├── NowOrderFactory.h
-│   ├── ScheduledOrderFactory.h
+│   ├── OrderFactory.java         # Abstract factory
+│   ├── NowOrderFactory.java
+│   ├── ScheduledOrderFactory.java
 │
 ├── services/
-│   └── NotificationService.h
+│   └── NotificationService.java
 │
 ├── utils/
-│   └── TimeUtils.h
+│   └── TimeUtils.java
